@@ -1,4 +1,4 @@
-numberstudent_name,student_firstname ,class |grade 
+number,student_name,student_firstname,class,grade 
 1265,Manolis,Kladakis,A,8
 5245,Thanasis,Panagiotou,D,7
 1258,Maria,Perdikari,C,8
