@@ -1,0 +1,5 @@
+"Leonidas",15,20
+"Maria",18,12
+"Thanasis",12,19
+"Panagiotis",14,14
+"Katerina",19,19
