@@ -1,7 +1,0 @@
-"Giorgos",8,"A"
-"Elpida",6,"A"
-"Giannis",8,"C"
-"Maria",8,"C"
-"Agelos",7,"D"
-"Katerina",9,"E"
-"Dhmhtra",9,"C"
