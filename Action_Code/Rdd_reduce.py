@@ -1,3 +1,4 @@
+#ypologismos apodixewn
 from pyspark.sql import SparkSession
 
 spark = SparkSession.builder.appName("Rdd_reduce").getOrCreate()
