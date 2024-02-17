@@ -8,8 +8,7 @@ rdCost = spark.sparkContext.parallelize(data)
 rdCost.collect()
 
 yearKerd = rdCost.reduce(lambda poso1,poso2: poso1+poso2)
+print(yearKerd)
 
 Apodixeis = yearKerd*10/100
-
-print(yearKerd)
 print(Apodixeis)
