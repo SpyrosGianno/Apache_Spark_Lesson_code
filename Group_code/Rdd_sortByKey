@@ -1,0 +1,15 @@
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder.appName("Rdd_sortByKey").getOrCreate()
+
+data_person =((1252,"Eleni"),(1288,"Nikos"),(1389,"Giannis"),(1411,"Maria"),(1512,"Kostas"),(1238,"Panagiotis"),(1820,"Marios"),(1722,"Nikoleta"),(1258,"Leonidas"))
+
+data_person_rdd = spark.sparkContext.parallelize(data_person)
+
+for perdata in data_person_rdd.collect():
+   print(perdata)
+
+persSortBy = data_person_rdd.sortByKey().collect()
+
+for per in persSortBy:
+  print(per)
