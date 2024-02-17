@@ -6,10 +6,10 @@ data_person =(("Maria",1200),("Nikos",1500),("Giannis",1600),("Maria",1200),("Gi
 
 persons = spark.sparkContext.parallelize(data_person)
 
-for std in student_data_rdd.collect():
+for std in persons.collect():
   print(std)
 
-personRdmap = student_data_rdd.reduceByKey(lambda x,y:x+y).collect()
+personRdmap = persons.reduceByKey(lambda x,y:x+y).collect()
 
 for student in personRdmap: 
   print(student)
