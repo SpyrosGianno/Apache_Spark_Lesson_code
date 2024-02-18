@@ -1,4 +1,3 @@
-#xrhsh ths select()
 from pyspark.sql import SparkSession
 
 spark = SparkSession.builder.appName("where").getOrCreate()
