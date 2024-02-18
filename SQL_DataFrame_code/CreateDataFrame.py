@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 
-spark = SparkSession.builder.appName("count_look").getOrCreate()
+spark = SparkSession.builder.appName("createDataFrame").getOrCreate()
 
 row = ([(1258,"Eleni","Mathimatika", 7), (2258,"Nikos","Glossa",8), (3582,"Giannis","Mathimatik",5),
                   (4582,"Maria","Istoria",6),(6584,"Kostas","Glossa", 8), (7854,"Leonidas","Mathimatika", 7), 
