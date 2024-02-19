@@ -1,8 +1,5 @@
 "id","name","Lesson","grade"
 125,"Leonidas","Geografia",10
-135,"Maria","Mathimatika",5
-138,"Thanasis","Glossa",7
-148,"Panagiotis","Istoria",6
 178,"Katerina","keimena",9
 178,"Nikoleta","Glossa",10
 200,"Vagelis","Mathimatika",10
@@ -10,3 +7,13 @@
 581,"leonidas","Istoria",5
 600,"Nektaria","keimena",9
 702,"Panagiota","Glossa",10
+200,"Vagelis","Mathimatika",10
+184,"Giota","Glossa",9
+135,"Maria","Mathimatika",5
+138,"Thanasis","Glossa",7
+200,"Vagelis","Mathimatika",10
+184,"Giota","Glossa",9
+135,"Maria","Mathimatika",5
+178,"Katerina","keimena",9
+581,"leonidas","Istoria",5
+
