@@ -1,4 +1,4 @@
-Student_ID,studentName,studentFirstname,class,grade
+ID,Name,Lname,Class,Grades
 1265,Manolis,Kladakis,A,7
 5245,Thanasis,Panagiotou,D,9
 1258,Maria,Perdikari,C,8
