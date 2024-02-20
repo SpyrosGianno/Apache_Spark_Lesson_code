@@ -1,0 +1,21 @@
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.appName("join_dataframe").getOrCreate()
+
+employer = ([(1258,"Maria","Panagiotou"),(2584,"Nikos","Giasou"),(1588,"Giannis","Georgiou"),(2582,"Giorgos","Leonidou"),(1558,"Marios","Panagiotou"),(1258,"Maria","Panagiotou")])
+sallary = ([(1258,"CEO","5000"),(2584,"IT",1800),(1588,"Desygner",2000),(2582,"Dev-ops",9000),(1558,"CEO",10000),(1258,"CEO",5000)])
+
+colum1 = ["id","name","surname"]
+colum2 = ["id","position","salary"]
+
+df1 = spark.createDataFrame(employer,colum1)
+df1.show()
+
+df2 = spark.createDataFrame(sallary,colum2)
+df2.show()
+
+dfJoin = df1.join(df2,df1.id == df2.id)
+dfJoin.show()
+dfJoin.count()
+
+dfDis = dfJoin.distinct()
+dfDis.show()
